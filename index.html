@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Chúc mừng Sinh nhật Diệp Chi 💗</title>
+
+<style>
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #ffd6e8, #ffb6d5);
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* mèo bay */
+.cat {
+    position: absolute;
+    font-size: 40px;
+    animation: floatUp 6s linear forwards;
+}
+
+@keyframes floatUp {
+    from { transform: translateY(100vh); opacity: 1; }
+    to   { transform: translateY(-20vh); opacity: 0; }
+}
+
+/* nút mở thư */
+button {
+    background: #ff6fa5;
+    border: none;
+    color: white;
+    padding: 15px 35px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: none;
+    margin-top: 40px;
+}
+
+/* thư */
+.letter-box {
+    background: white;
+    max-width: 720px;
+    margin: 40px auto;
+    padding: 35px;
+    border-radius: 25px;
+    text-align: left;
+    line-height: 1.8;
+    font-size: 16px;
+    opacity: 0;
+    animation: fadeIn 4s forwards;
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
+</style>
+</head>
+
+<body>
+
+<h1>🎂💗</h1>
+
+<button id="openBtn" onclick="openLetter()">Thư cho em 💌</button>
+
+<!-- Nhạc Celebrate – Red Velvet (ẩn) -->
+<iframe id="bgm"
+  width="0"
+  height="0"
+  src=""
+  frameborder="0"
+  allow="autoplay">
+</iframe>
+
+<script>
+/* mèo bay trong 15 giây */
+let catInterval = setInterval(() => {
+    const c = document.createElement("div");
+    c.className = "cat";
+    c.innerHTML = "🐱🎈";
+    c.style.left = Math.random() * 100 + "vw";
+    document.body.appendChild(c);
+    setTimeout(() => c.remove(), 6000);
+}, 300);
+
+/* sau 15s hiện nút */
+setTimeout(() => {
+    clearInterval(catInterval);
+    document.getElementById("openBtn").style.display = "inline-block";
+}, 15000);
+
+/* mở thư + bật nhạc */
+function openLetter() {
+    document.body.style.overflow = "auto";
+
+    document.body.innerHTML = `
+    <div class="letter-box">
+        <h2>Gửi em bé của chị 💗</h2>
+
+        <p>
+        Gửi em bé của chị,<br><br>
+        Em từng hỏi trong bức thư đầu tiên gửi chị rằng
+        “chị có tin vào fate không?”,
+        hồi đó chị vẫn nghĩ hai đứa mình quen nhau
+        là một sự tình cờ, nhưng bây giờ chị nghĩ khác.
+        </p>
+
+        <p>
+        Chị cũng tin vào “fate”,
+        tin việc hai linh hồn gặp nhau và hướng về nhau
+        là có lí do của nó,
+        có thể là để hai đứa mình được yêu và yêu chăng?
+        Chị nghĩ thế đó.
+        </p>
+
+        <p>
+        Đến bây giờ chị vẫn không ngờ là
+        em bé của chị sắp bước sang tuổi 15
+        và chị được đón chào khoảnh khắc đó
+        với người chị yêu nhất.
+        </p>
+
+        <p>
+        Cảm ơn em vì đã được sinh ra,
+        cảm ơn em vì đã luôn cố gắng,
+        cảm ơn em vì vẫn luôn yêu đời
+        dù đôi lúc cuộc đời chẳng mấy nhẹ nhàng với em.
+        </p>
+
+        <p>
+        Tuổi mới, chị mong em luôn khoẻ mạnh,
+        luôn vui vẻ, hạnh phúc và yêu bản thân nhiều hơn,
+        mong em hãy nhìn nhận bản thân thật tích cực,
+        mong em đừng bỏ cuộc,
+        mong em luôn cố gắng
+        và mong em đạt được mục tiêu em muốn.
+        </p>
+
+        <p>
+        Mong năm 15 tuổi của em sẽ thật rực rỡ
+        và mong năm tháng sau này
+        em vẫn sẽ cười, sẽ vui
+        và sẽ tự hào về bản thân thật nhiều.
+        </p>
+
+        <p>Chị yêu em, chị yêu em nhiều.</p>
+
+        <p style="text-align:right;">🐻 chị</p>
+    </div>
+    `;
+
+    /* bật Celebrate – đúng đoạn hay nhất */
+    document.getElementById("bgm").src =
+    
+}
+</script>
+
+</body>
+</html>
