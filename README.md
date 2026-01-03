@@ -94,40 +94,31 @@ function openLetter() {
 
         <p>
         Gửi em bé của chị,<br><br>
-        Em từng hỏi trong bức thư đầu tiên gửi chị rằng
-        “chị có tin vào fate không?”,
-        hồi đó chị vẫn nghĩ hai đứa mình quen nhau
-        là một sự tình cờ, nhưng bây giờ chị nghĩ khác.
-        </p>
-
-        <p>
-        Chị cũng tin vào “fate”,
-        tin việc hai linh hồn gặp nhau và hướng về nhau
-        là có lí do của nó,
-        có thể là để hai đứa mình được yêu và yêu chăng?
-        Chị nghĩ thế đó.
-        </p>
 
         <p>
         Đến bây giờ chị vẫn không ngờ là
         em bé của chị sắp bước sang tuổi 15
         và chị được đón chào khoảnh khắc đó
-        với người chị yêu nhất.
+        với người chị yêu nhất. chúc mừng sinh nhật em, chúc mừng sinh nhật miu của chị.
         </p>
 
         <p>
         Cảm ơn em vì đã được sinh ra,
         cảm ơn em vì đã luôn cố gắng,
         cảm ơn em vì vẫn luôn yêu đời
-        dù đôi lúc cuộc đời chẳng mấy nhẹ nhàng với em.
+        cảm ơn em vì đã luôn kiên nhẫn, dịu dàng 
+       và cảm ơn em vì đã ở lại với đời dù đôi lúc cuộc đời chẳng mấy nhẹ nhàng với em.
         </p>
 
         <p>
         Tuổi mới, chị mong em luôn khoẻ mạnh,
-        luôn vui vẻ, hạnh phúc và yêu bản thân nhiều hơn,
+        luôn vui vẻ, hạnh phúc.
         mong em hãy nhìn nhận bản thân thật tích cực,
         mong em đừng bỏ cuộc,
         mong em luôn cố gắng
+        mong em đủ mạnh mẽ để giữ lấy điều xứng đáng
+        mong em đủ dịu dàng để yêu bản thân thật nhiều
+        mong em bình an
         và mong em đạt được mục tiêu em muốn.
         </p>
 
@@ -138,7 +129,7 @@ function openLetter() {
         và sẽ tự hào về bản thân thật nhiều.
         </p>
 
-        <p>Chị yêu em, chị yêu em nhiều.</p>
+        <p>Chị yêu em, chị yêu em nhiều lắm.</p>
 
         <p style="text-align:right;">🐻 chị</p>
     </div>
